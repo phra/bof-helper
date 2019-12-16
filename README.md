@@ -38,6 +38,9 @@ save_file("payload.txt", payload)
 5. packing
 
 ```py
+def u8(x):
+    return struct.unpack("<B", x)[0]
+
 def u16(x):
     return struct.unpack("<H", x)[0]
 

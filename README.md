@@ -2,7 +2,9 @@
 Python Helper Utilities for SEH Overwrite Based Exploits
 
 ## Usage
-`from helper import *`
+```py
+from helper import *
+```
 
 ## Examples
 
